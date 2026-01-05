@@ -44,14 +44,9 @@ A comprehensive, lightweight Bash script designed to monitor Linux server health
 ## 📥 Installation & Usage
 
 1.  **Download the script:**
-    ```bash
-    curl -fsSL https://raw.githubusercontent.com/iranservervip/server_monitor/main/monitor.sh \
-| bash \
-| curl -X POST \
-    -H "Content-Type: application/json" \
-    -d @- \
-    http://IP_MONITORING_SERVER/api/report/
-    ```
+```bash
+curl -fsSL https://raw.githubusercontent.com/iranservervip/server_monitor/main/monitor.sh | bash | curl -X POST -H "Content-Type: application/json" -d @- http://IP_MONITORING_SERVER/api/report/
+```
 
 2.  **Make it executable:**
     ```bash
